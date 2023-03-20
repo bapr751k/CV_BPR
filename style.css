@@ -1,0 +1,25 @@
+body {
+  background: #536976;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h2{
+  color: #ffffff;
+  text-align: center;
+}
+h3{
+  color: rgb(2, 2, 2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  }
+.BarraH {
+  background: #799F0C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
