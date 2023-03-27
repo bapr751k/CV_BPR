@@ -9,28 +9,25 @@ body {
   background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 h1{
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
 h2{
   color: #ffffff;
   text-align: center;
 }
+
 h3{
   color: rgb(235, 245, 176);
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
   }
 
-.BarraH {
-  background: #799F0C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   }
-
-   nav {
+nav {
    /* background: rgb(146, 206, 146);*/
     color: rgb(255, 255, 255);
 }
@@ -47,7 +44,7 @@ li {
 a:hover {
     color: rgb(176, 201, 109);
 }
-
+/*
 menu {
   background: #d9d7d5;
   padding: 0.75rem;
@@ -61,7 +58,7 @@ span {
   display: inline-block;
   margin: 0.25rem;
   padding: 0.5rem;
-}
+} 
 
 .descripcion{
   display: block;
@@ -69,4 +66,15 @@ span {
 
 .entrada{
   display: block;
+} */
+
+table, th, td {
+  border: 1px solid black;
+  display: inline-flexbox;
+  padding: 2px;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: flexbox;
 }
