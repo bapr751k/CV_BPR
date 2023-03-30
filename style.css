@@ -1,13 +1,16 @@
 *{
-  font-family: 'Barlow', sans-serif;
   color: #ffffff;
+  font-family: Helvetica;
 }
-
-
+#imagen{
+  float:left;
+  width:100px;
+  height:100px;
+}
 body {
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #536976;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -20,7 +23,6 @@ h1{
 h2{
   color: #ffffff;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
@@ -28,6 +30,10 @@ h3{
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
   }
+
+nav {
+   color: rgb(255, 255, 255);
+}
 
 li {
   background: #3e5c5f;
@@ -39,40 +45,17 @@ li {
 
 a:hover {
     color: rgb(176, 201, 109);
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-/*
-menu {
-  background: #d9d7d5;
-  padding: 0.75rem;
-  overflow-y: scroll;
-  white-space: nowrap;
 }
 
-span {
-  background: #3e5c5f;
-  color: #ffffff;
-  display: inline-block;
-  margin: 0.25rem;
-  padding: 0.5rem;
-} 
-
-.descripcion{
-  display: block;
-}
-
-.entrada{
-  display: block;
-} */
-
-table, th, td {
-  /*border: 1px solid black;*/
-  display: inline-flexbox;
-  padding: 2px;
-}
-table.center {
-  margin-left: auto;
-  margin-right: auto;
+.renglon >div {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
   display: flexbox;
 }
+.columna > div{
+display: flexbox;
+}
+.Resumen{
+  display:flexbox;
+}
+
